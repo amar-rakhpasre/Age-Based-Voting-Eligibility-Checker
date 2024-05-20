@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main{
+    background-color: aqua;
+    text-align: center;
+    width: 50%;
+    border-radius: 5px;
+    border: 2px solid black;
+
+}
+#cont1 {
+    display: flex;
+    justify-content: center;
+}
+#cont2 {
+    display: flex;
+    justify-content: center;
+}
+
+#btn {
+    width: 80px;
+    font-size: larger;
+    border-radius: 4px;
+    background-color: rgb(48, 56, 58);
+    color: whitesmoke;
+}
+#btn:hover{
+    background-color: rgb(8, 9, 9);
+    transform: translateY(1px);
+}
+#userText{
+    scale: 1.6;
+    text-align: center;
+}
